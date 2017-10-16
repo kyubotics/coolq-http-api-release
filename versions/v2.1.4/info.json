@@ -1,0 +1,6 @@
+{
+    "version": "2.1.4",
+    "build": 104,
+    "description": "这是 2.1.4 版本，引入了很多 bug。",
+    "channel": "stable"
+}
