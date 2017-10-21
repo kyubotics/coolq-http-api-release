@@ -1,0 +1,6 @@
+{
+    "version": "3.0.1",
+    "build": 304,
+    "description": "- 修复 Content-Type 包含 charset 时返回 406 的 bug\r\n- 修复 Docker 容器中使用 URL 发图片卡死的 bug\r\n- 自动将从酷 Q 获取的字符串中的 emoji 的 CQ 码（形如 `[CQ:emoji,id=12345]`）转为 Unicode 字符，相反地，调用接口时自动将 Unicode 的 emoji 转为 CQ 码",
+    "channel": "stable"
+}
