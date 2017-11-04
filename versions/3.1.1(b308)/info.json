@@ -1,0 +1,6 @@
+{
+    "version": "3.1.1",
+    "build": 308,
+    "description": "- 修复下载文件的 bug（造成无法正确更新插件）\r\n- 反向 WebSocket 上报事件客户端不再每次都断开，而是启动时建立连接并一直保持（和 API 客户端一致）",
+    "channel": "stable"
+}
