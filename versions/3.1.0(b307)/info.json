@@ -1,0 +1,6 @@
+{
+    "version": "3.1.0",
+    "build": 307,
+    "description": "- 修复 API 在 POST 方式请求时不填写 HTTP 正文则无法正确处理的 bug\r\n- 支持反向 WebSocket 上报事件、调用 API，即插件作为客户端，启动时插件主动向给定的地址建立连接",
+    "channel": "stable"
+}
