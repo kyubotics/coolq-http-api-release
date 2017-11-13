@@ -1,0 +1,6 @@
+{
+    "version": "3.1.2",
+    "build": 309,
+    "description": "- 修复多线程情况下通过 base64 发送图片、语音时可能发生的冲突问题\r\n- 修复反向 WebSocket 在服务端为无法连接的情况下，重启插件会出现的崩溃问题\r\n- 修复反向 WebSocket 在重启插件时没能正确关闭的问题",
+    "channel": "stable"
+}
