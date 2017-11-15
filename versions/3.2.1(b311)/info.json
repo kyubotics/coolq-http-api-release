@@ -1,0 +1,6 @@
+{
+    "version": "3.2.1",
+    "build": 311,
+    "description": "- 修复了 3.1.2 和 3.2.0 版本在 docker 中无法正常 HTTP 上报的 bug",
+    "channel": "stable"
+}
