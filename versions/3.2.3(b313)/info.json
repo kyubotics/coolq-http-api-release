@@ -1,0 +1,6 @@
+{
+    "version": "3.2.3",
+    "build": 313,
+    "description": "- 反向 WebSocket 客户端支持重连，新增 `ws_reverse_reconnect_interval` 配置项用于配置重连间隔时间",
+    "channel": "stable"
+}
