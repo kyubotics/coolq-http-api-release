@@ -1,0 +1,6 @@
+{
+    "version": "3.2.4",
+    "build": 314,
+    "description": "- 修复 3.2.3 版本中开启调试日志窗口时重启酷 Q 会卡死的 bug\r\n- 检查更新之后可选择立即重启酷 Q 以生效\r\n- 支持无需确认的自动静默更新（通过 `auto_check_update` + `auto_perform_update` 两个配置项实现）\r\n- 修复了 Gitee 更新源无法正确更新插件的问题",
+    "channel": "stable"
+}
