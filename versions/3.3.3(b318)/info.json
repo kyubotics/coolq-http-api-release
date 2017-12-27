@@ -1,0 +1,6 @@
+{
+    "version": "3.3.3",
+    "build": 318,
+    "description": "- 再次修复非中文字符的编码转换问题，目前已测试 Windows 7 和 Windows 10 没有发现问题，Wine 和 Windows Server 2012 则是发送私聊消息没有问题，发送群组和讨论组消息时不支持特殊文字，暂没有发现解决方法",
+    "channel": "stable"
+}
