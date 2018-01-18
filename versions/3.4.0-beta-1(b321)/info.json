@@ -1,0 +1,6 @@
+{
+    "version": "3.4.0-beta-1",
+    "build": 321,
+    "description": "- 事件上报和推送加入了 `self_id` 字段，表示当前发生事件的机器人 QQ 号\r\n- 新增事件过滤机制，可通过 JSON 配置过滤规则，见 https://richardchien.github.io/coolq-http-api/3.4/#/EventFilter",
+    "channel": "beta"
+}
