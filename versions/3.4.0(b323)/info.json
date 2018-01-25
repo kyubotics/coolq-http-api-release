@@ -1,0 +1,6 @@
+{
+    "version": "3.4.0",
+    "build": 323,
+    "description": "- 事件上报和推送加入了 `self_id` 字段，表示当前发生事件的机器人 QQ 号\r\n- 新增事件过滤机制，可通过 JSON 配置过滤规则\r\n- 新增 `use_filter` 配置项用于开关过滤器\r\n- 新增 `ws_reverse_reconnect_on_code_1000` 用于控制反向 WebSocket 的重连\r\n- WebSocket（正向和反向）的 API 接口支持原样返回请求中 `echo` 字段，从而可实现请求和响应的一一对应",
+    "channel": "stable"
+}
