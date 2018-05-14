@@ -1,0 +1,11 @@
+{
+    "build": 400,
+    "version": "4.0.0-alpha.1",
+    "version_major": 4,
+    "version_minor": 0,
+    "version_patch": 0,
+    "version_pre": "alpha",
+    "version_pre_ver": 1,
+    "description": "",
+    "channel": "alpha"
+}
