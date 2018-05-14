@@ -1,0 +1,6 @@
+{
+    "version": "3.4.1",
+    "build": 324,
+    "description": "- 修复 WebSocket 鉴权失败后仍然会执行调用的 bug",
+    "channel": "stable"
+}
