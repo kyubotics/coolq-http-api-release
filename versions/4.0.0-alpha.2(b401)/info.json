@@ -1,11 +1,6 @@
 {
     "build": 401,
     "version": "4.0.0-alpha.2",
-    "version_major": 4,
-    "version_minor": 0,
-    "version_patch": 0,
-    "version_pre": "alpha",
-    "version_pre_ver": 2,
     "description": "- 修复 WebSocket 鉴权失败后仍然会执行调用的 bug",
     "channel": "alpha"
 }
