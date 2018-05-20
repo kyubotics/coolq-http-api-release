@@ -1,0 +1,6 @@
+{
+    "build": 403,
+    "version": "4.0.0-alpha.4",
+    "description": "- 优化 Docker 镜像的使用体验\r\n- 事件过滤器现移到旧版兼容性之前执行，也就是说 `enable_backward_compatibility` 配置项不会再影响事件过滤器所看到的事件数据对象",
+    "channel": "alpha"
+}
