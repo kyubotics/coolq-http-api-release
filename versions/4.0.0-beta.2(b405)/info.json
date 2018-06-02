@@ -1,0 +1,6 @@
+{
+    "build": 405,
+    "version": "4.0.0-beta.2",
+    "description": "- HTTP、反向 WebSocket 的请求头中新增 `X-Self-ID` 头用于表示当前正在上报或建立连接的 QQ 号，以便后端区分\r\n- `/set_restart` 接口新增 `clean_cache` 参数，用于清空酷 Q 当前登录号的缓存",
+    "channel": "beta"
+}
