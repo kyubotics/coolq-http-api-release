@@ -1,0 +1,6 @@
+{
+    "build": 407,
+    "version": "4.0.1",
+    "description": "- 修复使用反向 WebSocket 时，重启插件报错的问题\r\n- 优化线程安全性\r\n- 新增 `_get_group_info` 接口用于获取群信息",
+    "channel": "stable"
+}
