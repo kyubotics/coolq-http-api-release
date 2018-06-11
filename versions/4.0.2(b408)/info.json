@@ -1,0 +1,6 @@
+{
+    "build": 408,
+    "version": "4.0.2",
+    "description": "- 修复 `convert_unicode_emoji` 配置项无效的问题\r\n- 修复 Docker 镜像中文件权限的 bug（对没错，又修了一次）\r\n- 修复快速操作中酷 Q Air 不支持的操作导致程序崩溃的问题",
+    "channel": "stable"
+}
