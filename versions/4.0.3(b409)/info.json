@@ -1,0 +1,6 @@
+{
+    "build": 409,
+    "version": "4.0.3",
+    "description": "- 修复 Docker 镜像的超大 bug，v4.0.0 到 v4.0.2 的镜像将被弃用",
+    "channel": "stable"
+}
