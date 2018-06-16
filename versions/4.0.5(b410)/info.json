@@ -1,0 +1,6 @@
+{
+    "build": 410,
+    "version": "4.0.5",
+    "description": "- 修复 4.0.0 版本开始启动多个酷 Q 实例会卡死的问题",
+    "channel": "stable"
+}
