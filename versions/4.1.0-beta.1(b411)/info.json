@@ -1,0 +1,6 @@
+{
+    "build": 411,
+    "version": "4.1.0-beta.1",
+    "description": "- 新增扩展机制，支持加载 DLL 扩展\r\n- 新增 `use_extension` 配置项用于开关扩展机制",
+    "channel": "beta"
+}
