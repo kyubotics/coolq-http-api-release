@@ -1,0 +1,6 @@
+{
+    "build": 413,
+    "version": "4.2.0",
+    "description": "- `/set_group_add_request` 接口支持 `sub_type` 表示请求子类型，从而方便直接将事件上报数据作为参数传入\r\n- `/set_group_anonymous_ban` 接口支持直接传入事件上报数据的 `anonymous` 字段（值为 JSON 对象），用来表示要禁言的匿名用户\r\n- HTTP 群消息上报响应的快速操作，支持通过 `ban_duration` 指定禁言时长（单位：秒），默认 30 分钟\r\n- 新增 `.handle_quick_operation` 动作，方便使用 WebSocket 的 SDK 提供返回值直接触发快速操作的功能\r\n- 新增 `max_log_file_size` 配置项用于配置最大单日志文件大小，默认为 `6291456`（6MB）\r\n- 新增 `max_log_files` 配置项用于配置最大日志文件备份数量（采用日志轮替机制），默认为 `1`\r\n- 新增 `log_level` 配置项用于配置日志文件和日志控制台的日志等级，默认 `info`，可选 `debug`、`info`、`warning`、`error`、`fatal`",
+    "channel": "stable"
+}
