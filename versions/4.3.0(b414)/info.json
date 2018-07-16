@@ -1,0 +1,6 @@
+{
+    "build": 414,
+    "version": "4.3.0",
+    "description": "- 新增 `/get_credentials` 接口，用于同时获取 CSRF Token 和 Cookie\r\n- 扩展 `/_get_group_info` 接口的数据项，新增 `max_member_count` 表示群容量\r\n- `/_get_friend_list` 新增 `flat` 参数，用于控制获取的数据格式\r\n- 试验性接口中由于酷 Q 提供的凭证（Cookie 和 CSRF Token）失效导致的失败，现 `retcode` 改为 `104`\r\n- 更新 WebSocket 和 HTTP Server 库，提高稳定性",
+    "channel": "stable"
+}
