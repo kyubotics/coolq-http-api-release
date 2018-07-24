@@ -1,0 +1,6 @@
+{
+    "build": 415,
+    "version": "4.3.1",
+    "description": "- 新增 `/_get_vip_info` 接口，用于获取用户的会员信息（QQ 等级、会员等级、等级加速等）\r\n- `/set_restart` 接口新增 `clean_log` 参数，用于在重启时删除酷 Q 的 log 数据库（因为它比较占空间）\r\n- 暂时禁用 `/set_restart` 接口的 `clean_cache` 参数，因为发现这个参数会导致重启后需要重新登录账号",
+    "channel": "stable"
+}
