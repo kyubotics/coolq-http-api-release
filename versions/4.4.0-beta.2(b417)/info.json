@@ -1,0 +1,6 @@
+{
+    "build": 417,
+    "version": "4.4.0-beta.2",
+    "description": "- 在反向 WebSocket 连接失败时日志输出失败原因以便调试",
+    "channel": "beta"
+}
