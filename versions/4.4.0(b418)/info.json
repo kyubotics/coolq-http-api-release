@@ -1,0 +1,6 @@
+{
+    "build": 418,
+    "version": "4.4.0",
+    "description": "- 反向 WebSocket 建立连接时新增 `X-Client-Role` 请求头，用于标记当前正在连接的是 Event 客户端还是 API 客户端（请求头的值分别对应 `Event` 和 `API`）\r\n- 新增 `ws_reverse_url` 配置项用于配置反向 WebSocket 的 Event 和 API 客户端共用的连接地址，在不配置单独 URL 的情况下默认使用此 URL\r\n- 新增配置项 `disable_coolq_log` 控制酷 Q 日志的使用，默认 `true`，即完全不使用酷 Q 日志，而只写入插件的日志文件，设置为 `false` 则会将 info 及以上级别的日志同步输出到酷 Q 的日志窗口（可能会导致快速重启时卡死）\r\n- 支持配置 `update_source` 为 `github` 或 `gitee` 来选择两个官方更新源，以减轻配置文件的杂乱\r\n- `/set_restart` 接口的 `clean_cache` 参数语义变更为清除酷 Q `data/<qq>` 目录中的 `cache.db` 文件\r\n- `/set_restart` 接口新增 `clean_event` 参数用于在重启时清除酷 Q `data/<qq>` 目录中的 `eventv2.db` 文件\r\n- 修复开启日志控制台时调用 `/set_restart` 接口会导致进程崩溃的 bug\r\n- 修复 `file` URI 的标准符合性\r\n- 修复 Docker 镜像 `FORCE_ENV` 环境变量删掉整个 `config` 目录的行为在多账号情况下存在的问题\r\n- 修复使用多账号时扩展加载失败的 bug\r\n- 修复试验性接口中调用 QQ 的 web 接口时可能抛出异常导致 WebSocket 连接断开的 bug\r\n- 优化重启插件和重启酷 Q 的速度，提高多线程稳定性\r\n- 优化部分日志的输出内容和日志等级，使更符合直觉",
+    "channel": "stable"
+}
