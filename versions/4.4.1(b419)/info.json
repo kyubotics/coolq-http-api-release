@@ -1,0 +1,6 @@
+{
+    "build": 419,
+    "version": "4.4.1",
+    "description": "- 修复访问数据文件接口没有鉴权的问题",
+    "channel": "stable"
+}
