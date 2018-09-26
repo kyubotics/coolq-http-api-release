@@ -1,0 +1,6 @@
+{
+    "build": 421,
+    "version": "4.5.0-beta.2",
+    "description": "- 修复反向 WebSocket 客户端无法连接 WSS 的问题\r\n- 修复 `post_url` 和 `ws_reverse_*` 配置项中，无法使用大写 `HTTP://` 和 `WS://` 等的问题",
+    "channel": "beta"
+}
