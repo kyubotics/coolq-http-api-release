@@ -1,0 +1,6 @@
+{
+    "build": 423,
+    "version": "4.6.0",
+    "description": "- 消息事件上报数据中添加 `sender` 字段，包含发送者的昵称等信息\r\n- 消息段的 `data` 字段中的参数值现在允许使用非字符串，在转换为 CQ 码时插件会将它们转换为字符串（JSON 表示）\r\n- 新增元事件上报，上报数据中 `post_type` 为 `meta_event`，并有 `meta_event_type` 字段表示元事件的类型（`lifecycle`、`heartbeat` 等）\r\n- 新增插件主动心跳机制，将 `enable_heartbeat` 配置项设为 `true` 可启用，启用后每隔 `heartbeat_interval` 毫秒（默认 15000）会通过元事件类型 `heartbeat` 上报一次 `get_status` 的返回结果\r\n- 更多特性见 GitHub release",
+    "channel": "stable"
+}
