@@ -1,0 +1,6 @@
+{
+    "build": 424,
+    "version": "4.6.1",
+    "description": "- 调整获取 酷Q 根目录的代码，以支持 酷Q v5.12",
+    "channel": "stable"
+}
