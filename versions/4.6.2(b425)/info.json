@@ -1,0 +1,6 @@
+{
+    "build": 425,
+    "version": "4.6.2",
+    "description": "- 修复使用反向 WebSocket 的 Universal 客户端时，`get_status` 操作获取到的状态不正确的问题\r\n- 修改 `host` 配置项默认值为 `[::]`、`ws_host` 默认值为 `[::]`，以默认支持 IPv6，你仍然可以将它们设置为 `0.0.0.0` 来仅支持 IPv4",
+    "channel": "stable"
+}
