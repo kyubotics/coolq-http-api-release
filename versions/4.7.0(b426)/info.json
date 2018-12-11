@@ -1,0 +1,6 @@
+{
+    "build": 426,
+    "version": "4.7.0",
+    "description": "- `get_status` 接口的 `plugins_good` 字段更改为提供所有内部插件的 good 状态\r\n- 修复 `get_status` 接口获取的 `rate_limited_actions` 插件状态不正确的问题\r\n- 对配置文件语法错误报致命错误，以防止因为语法错误而被默认生成配置覆盖\r\n- 群消息事件的 `sender` 字段加入 `area`、`level`、`role`、`title` 字段",
+    "channel": "stable"
+}
