@@ -1,0 +1,6 @@
+{
+    "build": 428,
+    "version": "4.8.0",
+    "description": "- `/get_record` 接口新增 `full_path` 参数用于获取语音文件的绝对路径\r\n- 新增 `/get_image` 接口用于下载收到的图片并获取图片文件的绝对路径\r\n- 新增 `/can_send_image` 和 `/can_send_record` 接口用于检查是否可以发送图片和语音\r\n- 移除菜单「重启酷Q」，增加菜单「打开应用目录」和「打开酷Q目录」，便于使用",
+    "channel": "stable"
+}
