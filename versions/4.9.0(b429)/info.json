@@ -1,0 +1,6 @@
+{
+    "build": 429,
+    "version": "4.9.0",
+    "description": "- 移除 `/set_restart` 接口\r\n- 自动更新功能不再支持自动重启 酷Q，更新后需要手动重启生效\r\n- 新增 `/_get_group_notice`、`/_send_group_notice` 试验性接口，用于获取和发布群公告\r\n- 新增更新源 `coding`，原来的 `gitee` 源不再维护，可以设置为 `china`，以便在后续更新中保持使用最新的国内源\r\n- 优化链接库设置，使 CPK 体积缩小近一半",
+    "channel": "stable"
+}
