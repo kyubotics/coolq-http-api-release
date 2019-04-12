@@ -1,0 +1,6 @@
+{
+    "build": 430,
+    "version": "4.10.0",
+    "description": "- 修复 `/get_status` 接口与 酷Q 最新版的兼容性问题，新增状态值 `null` 表示无法查询到在线状态\r\n- 修改配置项 `online_status_detection_method` 的默认值为 `get_stranger_info`，即默认通过陌生人查询接口检查在线状态\r\n- 修改配置项 `show_log_console` 的默认值为 `true`，即默认显示 CQHTTP 日志控制台，以便调试\r\n- 重新添加 `/_set_restart` 接口，由于强行退出可能导致 酷Q 数据库损坏而影响功能，此接口除非必要请尽量避免使用",
+    "channel": "stable"
+}
