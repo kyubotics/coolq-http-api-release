@@ -1,0 +1,6 @@
+{
+    "build": 431,
+    "version": "4.10.1",
+    "description": "- 在增强 CQ 码发送图片时使用正确的文件扩展名，而不再是 `.tmp`\r\n- 修复 `/_set_restart` 接口在 酷Q 5.14 及更新版本中无法使用的问题",
+    "channel": "stable"
+}
