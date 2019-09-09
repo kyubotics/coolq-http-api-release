@@ -1,0 +1,6 @@
+{
+    "build": 432,
+    "version": "4.11.0",
+    "description": "- `/get_cookies` 接口新增 `domain` 参数，用于获取特定域名下的 cookies",
+    "channel": "stable"
+}
