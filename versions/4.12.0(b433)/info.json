@@ -1,0 +1,6 @@
+{
+    "build": 433,
+    "version": "4.12.0",
+    "description": "- 新增 `/get_friend_list` 接口，用于获取好友列表\r\n- 新增 `/get_group_info` 接口，用于获取单个群信息\r\n- 新增 `group_ban` 通知事件，在群内有人被禁言和解除禁言时触发",
+    "channel": "stable"
+}
