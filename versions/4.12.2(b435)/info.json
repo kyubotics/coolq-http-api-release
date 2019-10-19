@@ -1,0 +1,6 @@
+{
+    "build": 435,
+    "version": "4.12.2",
+    "description": "- 修复启动应用时报无法加载的错误",
+    "channel": "stable"
+}
