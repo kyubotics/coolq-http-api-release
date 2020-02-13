@@ -1,6 +1,0 @@
-{
-    "version": "3.3.4",
-    "build": 319,
-    "description": "- 修复多线程异步发送同一张网络图片时发生冲突的问题\r\n- 新增 `/clean_data_dir` 接口用于清理数据目录\r\n- 修复 Docker 中发送某些图片时卡住的问题\r\n- 修复部分 emoji 会导致插件崩溃的问题\r\n- 添加配置项 `convert_unicode_emoji` 用于开关 emoji 转换",
-    "channel": "stable"
-}

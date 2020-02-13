@@ -1,6 +1,0 @@
-{
-    "version": "3.4.0-beta-2",
-    "build": 322,
-    "description": "- 新增 `use_filter` 配置项用于开关过滤器\r\n- `use_filter` 开启时，若过滤规则加载失败（未找到文件或语法错误），将默认不上报任何事件",
-    "channel": "beta"
-}

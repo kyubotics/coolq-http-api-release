@@ -1,6 +1,0 @@
-{
-    "version": "3.2.0",
-    "build": 310,
-    "description": "- 重构 API 服务模块，并调整了 `/get_status` 接口的返回数据\r\n- 移除群匿名消息文本开头多余的匿名名称\r\n- 为群消息增加 `sub_type` 字段，可能的取值为 `normal`、`anonymous`、`notice`，分别表示正常消息、匿名消息、系统提示\r\n- 新增 `/set_restart_plugin` 接口用于重启插件（在不重启酷 Q 的情况下）",
-    "channel": "stable"
-}

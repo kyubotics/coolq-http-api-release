@@ -1,0 +1,6 @@
+{
+    "build": 438,
+    "version": "4.14.0",
+    "description": "- `/get_credentials` 接口新增 `domain` 参数，和 `/get_cookies` 相同，表示要获取的 cookies 的域\r\n- HTTP 接口支持 CORS，添加配置项 `enable_cors` 为 `true`，即可从浏览器跨域访问，Fix #246\r\n- 修复群禁言事件 `notice_type` 为 `unknown` 的 bug，Fix #262\r\n- 优化增强 CQ 码出错时的提示，Fix #263",
+    "channel": "stable"
+}

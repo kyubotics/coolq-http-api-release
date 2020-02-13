@@ -1,6 +1,0 @@
-{
-    "version": "3.2.2",
-    "build": 312,
-    "description": "- `/get_status` 接口加入 QQ 在线状态，以 `online` 字段表示\r\n- 修复 3.2.0 版本引入的 CPU 占用极高的 bug",
-    "channel": "stable"
-}

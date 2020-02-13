@@ -1,6 +1,0 @@
-{
-    "version": "3.0.0",
-    "build": 303,
-    "description": "- 重写 90% 的代码，使用更现代的 C++，大量减少与 C 库的交互\r\n- 移除了不常用的 `pattern`、`post_timeout` 配置项\r\n- 控制消息自动转义的参数由 `is_raw` 改为 `auto_escape`\r\n- 快速回复支持自动转义，同样由 `auto_escape` 参数控制\r\n- 消息事件上报 `font`（虽然并不知道有什么用）\r\n- 新增 /send_msg 接口，用来发送不同类型的消息，通过 `message_type` 参数指定类型\r\n- 支持异步发送消息（`/send_msg_async`、`/send_private_msg_async` 等），适用于需要发图的场景\r\n- 新增 `thread_pool_size` 配置，用来调整工作线程池的大小\r\n- Access token 不再用于上报消息，只用于 API 请求，且配置项由 `token` 更名为 `access_token`\r\n- Access token 不符分为 401 和 403 两种情况\r\n- 新增 `secret` 配置项，用来做 HMAC SHA1 签名，上报请求头加入 `X-Signature`\r\n- 支持通过 base64 发送图片和语音\r\n- 新增「重启插件」菜单项，此操作将会连续执行停用和启用插件的逻辑，可用来重新加载配置文件\r\n- 新增 `update_source`、`update_channel` 配置项，支持切换更新源和通道（目前有 `beta`、`stable`）\r\n- 检查更新改为异步执行，不再阻塞主线程\r\n- 支持通过 WebSocket 调用 API 和推送事件\r\n- 新增 `ws_host`、`ws_port`、`use_ws` 配置项用于配置 WebSocket\r\n- 新增 `use_http` 配置项用于选择是否开启 HTTP 接口（HTTP 上报不受此控制，只跟 `post_url` 有关）\r\n- 新增 `/get_status` 接口，用来查看插件运行状态\r\n- 对 docker 环境做了优化\r\n- 修复大量 bug，提升稳定性",
-    "channel": "stable"
-}

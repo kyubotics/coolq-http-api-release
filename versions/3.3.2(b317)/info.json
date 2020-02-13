@@ -1,6 +1,0 @@
-{
-    "version": "3.3.2",
-    "build": 317,
-    "description": "- 修复非中文字符的编码转换问题，从而可以发送阿拉伯文、泰文等其它文字（仅限 Windows NT，不支持 Wine）",
-    "channel": "stable"
-}

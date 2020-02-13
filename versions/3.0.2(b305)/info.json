@@ -1,6 +1,0 @@
-{
-    "version": "3.0.2",
-    "build": 305,
-    "description": "- 新增 `/set_restart` 接口，用于重启酷 Q\r\n- 新增 `/_get_friend_list` 接口，用于获取好友和好友分组列表\r\n- 新增 `server_thread_pool_size` 配置项，用于配置 API 服务器线程池大小",
-    "channel": "stable"
-}

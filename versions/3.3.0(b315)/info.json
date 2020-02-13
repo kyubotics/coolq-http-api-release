@@ -1,6 +1,0 @@
-{
-    "version": "3.3.0",
-    "build": 315,
-    "description": "- 修复酷 Q 升级不兼容导致的发送消息返回 `retcode` 和 `status` 不正确的问题\r\n- 发送消息接口在 `data` 中加入消息 ID\r\n- 新增 `/delete_msg` 接口，用于撤回消息，仅支持酷 Q Pro\r\n- 新增 `/get_record` 接口，用于将收到的语音转换成指定格式并获取转换后的文件名，仅支持酷 Q Pro\r\n- 修复 API 请求路径末尾加上 `/` 返回 404 的问题",
-    "channel": "stable"
-}

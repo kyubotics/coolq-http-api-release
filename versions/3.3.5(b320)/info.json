@@ -1,6 +1,0 @@
-{
-    "version": "3.3.5",
-    "build": 320,
-    "description": "- 修复一些版本的 Windows Server 上无法网络请求的问题\r\n- 修复部分 emoji 无法正确转换的问题",
-    "channel": "stable"
-}

@@ -1,6 +1,0 @@
-{
-    "version": "3.0.0-beta-1",
-    "build": 300,
-    "description": "重构的 3.0 新版本，解决了非常多的 bug（也可能引入了一些新的），新增了很多功能，有一些 breaking change，更新时注意。",
-    "channel": "beta"
-}

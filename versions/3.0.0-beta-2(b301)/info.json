@@ -1,6 +1,0 @@
-{
-    "version": "3.0.0-beta-2",
-    "build": 301,
-    "description": "- 修改更新源目录结构，beta 1 无法继续检查更新\r\n- 配置项重新支持在 general 下配置各 QQ 号通用的配置\r\n- 新增 /send_msg 接口，用来发送不同类型的消息，`message_type` 参数指定类型，配套有异步的 `/send_msg_async`\r\n- 支持通过 WebSocket 调用 API 和推送事件\r\n- 新增 `ws_host`、`ws_port`、`use_ws` 配置项用于配置 WebSocket\r\n- 新增 `use_http` 配置项用于选择是否开启 HTTP 接口（HTTP 上报不受此控制，只跟 `post_url` 有关）",
-    "channel": "beta"
-}

@@ -1,6 +1,0 @@
-{
-    "version": "3.0.0-beta-3",
-    "build": 302,
-    "description": "- 新增 `/get_status` 接口，用来查看插件运行状态\r\n- 对 docker 环境做了一个小优化",
-    "channel": "beta"
-}
