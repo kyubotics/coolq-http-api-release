@@ -1,6 +1,6 @@
 {
     "build": 438,
     "version": "4.14.0",
-    "description": "- `/get_credentials` 接口新增 `domain` 参数，和 `/get_cookies` 相同，表示要获取的 cookies 的域\r\n- HTTP 接口支持 CORS，添加配置项 `enable_cors` 为 `true`，即可从浏览器跨域访问，Fix #246\r\n- 修复群禁言事件 `notice_type` 为 `unknown` 的 bug，Fix #262\r\n- 优化增强 CQ 码出错时的提示，Fix #263",
+    "description": "- `lifecycle` 元事件新增 `connect` 子类型，在使用 WebSocket、反向 WebSocket 时，连接建立后产生（注意，对于反向 WebSocket，Event 连接建立后，API 连接可能尚未建立，如需确保收到该事件时 API 可用，可通过 `ws_reverse_use_universal_client` 配置项解决）\r\n- 修复配置项 `ws_reverse_api_url` 或 `ws_reverse_event_url` 为空时，没有使用 `ws_reverse_url` 的问题\r\n- 修复反向 WebSocket 连续发图时卡住的问题\r\n- 修复偶尔出现的应用启动时日志系统初始化失败导致的崩溃问题\r\n- 修复偶尔出现的反向 WebSocket 没有按预期断开重连的问题\r\n- 修复 WebSocket 连接失败时（如 access token 不正确时）连接数仍然增加的问题",
     "channel": "stable"
 }
