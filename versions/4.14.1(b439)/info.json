@@ -1,0 +1,6 @@
+{
+    "build": 439,
+    "version": "4.14.1",
+    "description": "- 修复 `lifecycle` 元事件上报行为与文档表述不一致的问题，现在 `enable`、`disable` 子类型确保只从 HTTP 上报，`connect` 子类型只从正向和反向 WebSocket 上报\r\n- 修复反向 WebSocket 连接尚未建立成功时，事件上报导致 WebSocket 后端发生异常的问题",
+    "channel": "stable"
+}
