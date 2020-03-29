@@ -1,0 +1,6 @@
+{
+    "build": 440,
+    "version": "4.14.2",
+    "description": "- 修改 `host` 和 `ws_host` 配置项的默认值为 `0.0.0.0`\r\n- 修改 `update_source` 配置项的默认值为 `global`，且不再维护 `china`、`coding`、`gitee` 更新源，因为国内相关平台普遍不支持较大文件下载，用户可以自行同步 GitHub 仓库 richardchien/coolq-http-api-release 来自建更新源\r\n- 生成的默认配置文件中添加 `$schema`，以便编辑器进行自动补全",
+    "channel": "stable"
+}
