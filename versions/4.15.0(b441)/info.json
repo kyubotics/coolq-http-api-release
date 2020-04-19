@@ -1,0 +1,6 @@
+{
+    "build": 441,
+    "version": "4.15.0",
+    "description": "- 增强 CQ 码新增 `timeout` 参数，发送网络图片或语音时，可设置下载超时时间，单位是秒\r\n- 修复增强 CQ 码中 `cache` 参数的语义，该参数为 0 时，会删除已有缓存并重新下载，下次该参数为 1 时会使用新的缓存\r\n- 修复正向和反向 WebSocket 收到带数据的 Ping 时没有正确 Pong 的问题，具体表现为修复了使用 websockets、Sanic 等 WebSocket 库时，一段时间后必定断开的问题",
+    "channel": "stable"
+}
